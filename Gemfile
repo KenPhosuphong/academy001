@@ -57,13 +57,12 @@ group :development, :test do
   gem "dotenv-rails"
   gem "simplecov"
   gem "webdrivers", require: false
-  
+
 
   gem "cucumber-rails", require: false
   gem "database_cleaner-active_record"
   gem "factory_bot_rails"
   gem "rails-controller-testing"
-
 end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
